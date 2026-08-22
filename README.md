@@ -66,7 +66,7 @@ Has larger caps and inductors compared to the others.
 
 ## BMD vs FS
 
-Same transceiver IC, different board build.
+Same transceiver IC, different board build. Larger caps and inductors on the BMD board.
 
 | BMD | FS |
 | :---: | :---: |
