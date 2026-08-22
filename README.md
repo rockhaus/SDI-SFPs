@@ -4,7 +4,7 @@ Some research I conducted after spending around $400 on a Blackmagic 12G-SDI SFP
 
 **Big caveat:** the connected equipment in my setup only supports 6G-SDI signals. However, other users on Reddit report being able to use the FS 10G SFPs with 12G-SDI signals, and as you will see below, both the BMD and FS SFPs use the same transceiver IC. The actual speed of a 12G-SDI signal is 11.88 Gbps.
 
-I have also included EEPROM dumps using Ubiquiti's SFP Wizard at then end of the page.
+I have also included EEPROM dumps for three of the SFPs using Ubiquiti's SFP Wizard at then end of the page.
 
 <img src="images/blackmagic-mini-converter-optical-fiber-12g.jpg" alt="Blackmagic Mini Converter Optical Fiber 12G" width="500">
 
