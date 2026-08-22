@@ -1,6 +1,6 @@
 # 12G-SDI SFP Comparison
 
-Some research I conducted after spending around $400 on a Blackmagic 12G-SDI SFP module and then discovering it works just fine when paired with a $34 FS 10G SFP+ module for networking equipment. These SFPs were installed in a pair of Blackmagic Optical Fiber 12G Miniconverters that support SDI in and out.
+Some research I conducted after spending around $400 on a Blackmagic 12G-SDI SFP module and then discovering it works just fine when paired with a $34 FS 10G SFP+ module for networking equipment or with PACBTECH 12G-SDI SFPs. These SFPs were installed in a pair of Blackmagic Optical Fiber 12G Miniconverters that support SDI in and out.
 
 **Big caveat:** the connected equipment in my setup only supports 6G-SDI signals. However, other users on Reddit report being able to use the FS 10G SFPs with 12G-SDI signals, and as you will see below, both the BMD and FS SFPs use the same transceiver IC. The actual speed of a 12G-SDI signal is 11.88 Gbps.
 
