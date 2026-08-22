@@ -22,6 +22,7 @@ It can be seen in the teardown photos that the BMD SFP does have larger capacito
 ## Neton NTX-8D32HJ-1310
 
 MACOM M02193
+
 Secondary IC: PA8Z2 (6-pin)
 
 <img src="images/neton-ntx-8d32hj-1310-module-and-label.jpg" alt="Neton NTX-8D32HJ-1310 module and label" width="800">
@@ -41,6 +42,7 @@ MACOM M02193
 ## FS SFP-10GLR-31
 
 Gennum (now Semtech) GN1157 — LR transceiver chip. 
+
 MCU: F850I
 
 <img src="images/fs-sfp-10glr-31-module-and-label.jpg" alt="FS SFP-10GLR-31 module and label" width="800">
@@ -54,6 +56,7 @@ MCU: F850I
 ## Blackmagic ADPT-12GBI/OPT
 
 Gennum (now Semtech) GN1157 —  LR transceiver chip. 
+
 MCU: SIL F336
 
 Has larger caps and inductors compared to the others.
