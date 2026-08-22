@@ -10,10 +10,10 @@ Some research I conducted after spending around $400 on a Blackmagic 12G-SDI SFP
 
 | Make     | Model            | Transceiver IC     | Advertised Max Speed of IC | Cost  |
 | -------- | ---------------- | ------------------ | -------------------------- | ----: |
-| Neton    | NTX-8D32HJ-1310  | MACOM M02193       | 12.5 Gbps                  | ??    |
-| PACBTECH | PAC-12G-20       | MACOM M02193 [^1]  | 12.5 Gbps                  | ~$70  |
-| BMD      | ADPT-12GBI/OPT   | Gennum GN1157      | 11.3 Gbps                  | ~$465 |
-| FS       | SFP-10GLR-31     | Gennum GN1157      | 11.3 Gbps                  | ~$34  |
+| Neton    | NTX-8D32HJ-1310  | [MACOM M02193](https://www.macom.com/products/product-detail/M02193)  | 12.5 Gbps                  | ??    |
+| PACBTECH | PAC-12G-20       | [MACOM M02193](https://www.macom.com/products/product-detail/M02193)  | 12.5 Gbps                  | ~$70  |
+| BMD      | ADPT-12GBI/OPT   | [Gennum GN1157](https://www.semtech.com/products/signal-integrity/laser-drivers-transceivers/gn1157)      | 11.3 Gbps                  | ~$465 |
+| FS       | SFP-10GLR-31     | [Gennum GN1157](https://www.semtech.com/products/signal-integrity/laser-drivers-transceivers/gn1157)      | 11.3 Gbps                  | ~$34  |
 
 [^1]: Top marking partially obscured; identified by comparison with the Neton module's `02193G12 / 2029 MY` marking.
 
@@ -21,7 +21,7 @@ It can be seen in the teardown photos that the BMD SFP does have larger capacito
 
 ## Neton NTX-8D32HJ-1310
 
-MACOM M02193 G12 — max speed 12.5 Gbps — <https://www.macom.com/products/product-detail/M02193>
+MACOM M02193
 Secondary IC: PA8Z2 (6-pin)
 
 <img src="images/neton-ntx-8d32hj-1310-module-and-label.jpg" alt="Neton NTX-8D32HJ-1310 module and label" width="800">
@@ -30,7 +30,7 @@ Secondary IC: PA8Z2 (6-pin)
 
 ## PACBTECH PAC-12G-20
 
-MACOM 02193 G12
+MACOM M02193
 
 <img src="images/pacbtech-pac-12g-20-label.jpg" alt="PACBTECH PAC-12G-20 label" width="800">
 
@@ -40,8 +40,8 @@ MACOM 02193 G12
 
 ## FS SFP-10GLR-31
 
-Gennum (now Semtech) GN1157 — max speed 11.3 Gbps — <https://www.semtech.com/products/signal-integrity/laser-drivers-transceivers/gn1157>
-LR transceiver chip. MCU: F850I
+Gennum (now Semtech) GN1157 — LR transceiver chip. 
+MCU: F850I
 
 <img src="images/fs-sfp-10glr-31-module-and-label.jpg" alt="FS SFP-10GLR-31 module and label" width="800">
 
@@ -53,8 +53,8 @@ LR transceiver chip. MCU: F850I
 
 ## Blackmagic ADPT-12GBI/OPT
 
-Gennum (now Semtech) GN1157 — max speed 11.3 Gbps — <https://www.semtech.com/products/signal-integrity/laser-drivers-transceivers/gn1157>
-LR transceiver chip. MCU: SIL F336
+Gennum (now Semtech) GN1157 —  LR transceiver chip. 
+MCU: SIL F336
 
 Has larger caps and inductors compared to the others.
 
